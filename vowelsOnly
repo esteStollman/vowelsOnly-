@@ -1,0 +1,11 @@
+function vowelsOnly(str) {
+    let newStr = "";
+    let vowels = "AaEeIiOoUu";
+    
+    for (var char of str) {
+        if (vowels.indexOf(char) >=0) {
+            newStr += char;
+        }
+    }
+    return newStr;
+}
